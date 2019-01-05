@@ -75,3 +75,18 @@ div.skills>div>a>img {
   width: auto;
   height: 150px;
 }
+
+div.footer {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  background-color: #24292e;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.footer>p {
+  width: 100%;
+}
