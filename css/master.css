@@ -47,3 +47,31 @@ div.head>p>span {
   display: inline-block;
   width: 70%;
 }
+
+div.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 375px;
+}
+
+div.skills>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+div.skills>div>h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+div.skills>div>a>img {
+  width: auto;
+  height: 150px;
+}
