@@ -5,6 +5,7 @@ nav {
   display: grid;
   grid-template-columns: 10% 20% 25% 25% 15% 5%;
   height: 60px;
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.75);
 }
 
 nav>p#main {

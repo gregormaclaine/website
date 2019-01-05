@@ -6,8 +6,6 @@ html, body {
 
 div.head {
   width: 100%;
-  border-bottom: 2px solid hsla(0, 0%, 100%, 0.75);
-  border-top: 2px solid hsla(0, 0%, 100%, 0.75);
   height: auto;
   position: relative;
   background-color: #042143;
