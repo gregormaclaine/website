@@ -133,3 +133,100 @@ div.project-header>div.text>p {
   width: 100%;
   margin-bottom: 0px;
 }
+
+div.programs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+div.programs>div {
+  min-width: 350px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+div.programs>div>h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  text-shadow: 1px 1px #aaa;
+}
+
+div.programs>div:nth-child(2n) {
+  background-color: #eee;
+}
+
+div.programs>div>div.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.programs>div>div.grid>a>div {
+  width: 225px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+div.programs>div>div.grid>a>div>span {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+div.programs>div>div.grid>a>div>img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+div.programs>div>div.grid>a>div>h3 {
+  width: 100%;
+  height: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+div.programs>div>div.grid>a>div>p {
+  width: 100%;
+  color: white;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  -webkit-transition: z-index 1s;
+  transition: z-index 1s;
+}
+
+div.programs>div>div.grid>a>div>p>span {
+  display: inline-block;
+  width: 90%;
+}
+
+div.programs>div>div.grid>a>div:hover>span {
+  display: block;
+}
+
+div.programs>div>div.grid>a>div:hover>p {
+  display: flex;
+}
