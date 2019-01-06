@@ -166,6 +166,7 @@ div.programs>div>div.grid {
 
 div.programs>div>div.grid>a>div {
   width: 225px;
+  height: 192.5px;
   background-color: #ddd;
   border-radius: 10px;
   margin: 10px;
@@ -187,19 +188,19 @@ div.programs>div>div.grid>a>div>span {
 
 div.programs>div>div.grid>a>div>img {
   width: 100%;
-  height: auto;
-  max-height: 150px;
+  height: 150px;
   border-radius: 10px;
 }
 
 div.programs>div>div.grid>a>div>h3 {
   width: 100%;
   height: auto;
-  margin-top: 6px;
-  margin-bottom: 6px;
   font-size: 20px;
   color: black;
   text-decoration: none;
+  bottom: -5px;
+  position: absolute;
+  left: 0px;
 }
 
 div.programs>div>div.grid>a>div>p {

@@ -98,9 +98,11 @@ nav>div#links>div.dropdown>div>p:not(.link) {
 
 nav>div#links>div.dropdown>div>p.header {
   text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px dashed black;
 }
 
-nav>div#links>div.dropdown>div>p.header::after {
+#nav>div#links>div.dropdown>div>p.header::after {
   content: "";
   position: absolute;
   left: calc(50% - 50px);
