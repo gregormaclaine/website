@@ -12,6 +12,10 @@ div.head {
   text-align: center;
 }
 
+div#about.head {
+  background-color: #244183;
+}
+
 div.head>img {
   width: 100%;
   height: inherit;
@@ -24,7 +28,6 @@ div.head>h1 {
   margin: 0px;
   left: 0;
   top: 35%;
-  width: 100%;
   color: white;
   font-family: Helvetica;
   font-weight: bold;
@@ -37,15 +40,30 @@ div.head>p {
   margin: 0px;
   left: 0;
   top: 55%;
-  width: 100%;
   color: white;
   font-size: 1.35vw;
   text-shadow: 1px 1px 2px black;
 }
 
+div#about.head>h1, div#about.head>p {
+  text-align: left;
+  padding-left: 130px;
+}
+
+div#about.head>p {
+  font-size: 1.5vw;
+  top: 50%;
+  color: #aab2c0;
+  text-shadow: 1px 1px 2px #444;
+}
+
 div.head>p>span {
   display: inline-block;
   width: 70%;
+}
+
+div#about.head>p>span {
+  width: 45%;
 }
 
 div.skills {
@@ -98,7 +116,7 @@ div.project-header {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: left;
-  background-image: linear-gradient(268deg, #405f8f, #1c3050);
+  background-image: linear-gradient(268deg, #303f67, #0c1838);
   color: white;
   line-height: 1.5;
 }
