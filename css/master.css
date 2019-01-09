@@ -33,6 +33,7 @@ div.head>h1 {
   font-weight: bold;
   font-size: 3.5vw;
   text-shadow: 2px 2px 4px black;
+  width: 100%;
 }
 
 div.head>p {
