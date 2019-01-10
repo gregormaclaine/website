@@ -49,6 +49,7 @@ div.head>p {
 div#about.head>h1, div#about.head>p {
   text-align: left;
   padding-left: 130px;
+  width: auto;
 }
 
 div#about.head>p {
@@ -181,6 +182,7 @@ div.programs>div>div.grid {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  min-height: 50%;
 }
 
 div.programs>div>div.grid>a>div {
@@ -234,8 +236,6 @@ div.programs>div>div.grid>a>div>p {
   flex-direction: column;
   align-items: center;
   display: none;
-  -webkit-transition: z-index 1s;
-  transition: z-index 1s;
 }
 
 div.programs>div>div.grid>a>div>p>span {
@@ -249,4 +249,31 @@ div.programs>div>div.grid>a>div:hover>span {
 
 div.programs>div>div.grid>a>div:hover>p {
   display: flex;
+}
+
+div.image-block {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr 3fr;
+  grid-template-rows: 1fr 2fr;
+  width: 100%;
+}
+
+div.image-block>h1 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+div.image-block>div.text {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+div.image-block>img {
+  grid-column: 3 / span 4;
+  grid-row: 1 / span 2;
+  width: 80%;
+  height: auto;
+  margin: auto;
 }
